@@ -15,12 +15,12 @@ const calendrierDuCrayon = {
 // console.log(tousLesMois);
 // console.log(calendrierDuCrayon[mois]); // Retourne 10 avec septembre
 
-const hautDuCrayon = `  /\\ \n /__\\`;
-const crayon = " ||||";
-const gommeBase = " |__|";
-const gommeDeuxEtage = " |__| \n |  | \n |__|";
-
 function recupMois(mois) {
+  const hautDuCrayon = `  /\\ \n /__\\`;
+  const crayon = " ||||";
+  const gommeBase = " |__|";
+  const gommeDeuxEtage = " |__| \n |  | \n |__|";
+
   console.log(hautDuCrayon);
   for (let i = 0; i < calendrierDuCrayon[mois]; i++) {
     console.log(crayon);
@@ -31,4 +31,4 @@ function recupMois(mois) {
     console.log(gommeDeuxEtage);
   }
 }
-recupMois("octobre");
+recupMois("avril");
