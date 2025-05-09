@@ -26,9 +26,10 @@ function recupMois(mois) {
     console.log(crayon);
   }
   if (calendrierDuCrayon[mois] > 4) {
-    console.log(gommeBase);
-  } else {
     console.log(gommeDeuxEtage);
+  } else {
+    console.log(gommeBase);
   }
+  console.log(gommeBase);
 }
-recupMois("avril");
+recupMois("septembre");
