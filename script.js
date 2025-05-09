@@ -15,7 +15,7 @@ const calendrierDuCrayon = {
 // console.log(tousLesMois);
 // console.log(calendrierDuCrayon[mois]); // Retourne 10 avec septembre
 
-function recupMois(mois) {
+function drawMyPen(mois) {
   const hautDuCrayon = `  /\\ \n /__\\`;
   const crayon = " ||||";
   const gommeBase = " |__|";
@@ -32,4 +32,4 @@ function recupMois(mois) {
   }
   console.log(gommeBase);
 }
-recupMois("septembre");
+drawMyPen("septembre");
